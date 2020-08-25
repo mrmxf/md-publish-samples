@@ -1,0 +1,35 @@
+{
+  "_help": "This metadata is substitued by the md-publish filter to create AG-04-ST",
+	"author": [
+		"Bruce Devlin"
+	],
+	"affiliation": [
+		"SMPTE"
+	],
+	"role": [
+		"SVP"
+	],
+	"version": "0.1",
+	"title": "Standards Template",
+	"smpte": {
+		"TC": "ST",
+		"group": {
+			"name": "AHG-publish",
+			"chair": "Bruce Devlin",
+			"editor": "Bruce Devlin"
+		},
+		"type": {
+			"short": "AG",
+			"long": "Administrative Guideline"
+		},
+		"number": "04",
+		"year": "2020",
+		"part": "",
+		"element": "",
+		"reference": "AG-04-ST:2020",
+		"state": "WD",
+		"title": "Standards Template",
+		"date": "2020-07-23T00:00:00.000Z",
+		"revision_topics": ""
+	}
+}

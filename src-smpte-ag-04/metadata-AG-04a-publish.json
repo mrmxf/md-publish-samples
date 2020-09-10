@@ -3,7 +3,7 @@
 	"version": "0.1",
 	"smpte": {
 		"number": "04a",
-		"reference": "AG-04a-ST:2020",
+		"ref": "AG-04a-ST:2020",
 		"title": "Standards Template (as published)"
 	},
 	"title":"Standards Template (as spublished-online)"

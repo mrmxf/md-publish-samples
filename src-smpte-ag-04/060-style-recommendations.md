@@ -12,18 +12,20 @@ EXAMPLE: 5 oranges
 
 The tone mapping offset, gain and gamma values shall be applied according to the equation:
 
-y=(min(max(0,(x×g)+o),1))^P	(1)
++-----------------------------------------------+-------:+
+|  $y=( min( max(0,(x  \times g) + o ),1) )^P$  | ( 1 )  |
++-----------------------------------------------+--------+
 
 where
-y	is the output value
-x	is the input value
-g	is the value of Tone Mapping Gain
-o	is the value of Tone Mapping Offset
-p	is the value of Tone Mapping Gamma
+`y` is the output value
+`x` is the input value
+`g` is the value of Tone Mapping Gain
+`o` is the value of Tone Mapping Offset
+`p` is the value of Tone Mapping Gamma
 
 ## Figures
- 
-![Two-dimensional LUT of actual peak luminance](test-fig-01.png)
+
+![Two-dimensional LUT of actual peak luminance](figure-01.png)
 
 ## Tables
 

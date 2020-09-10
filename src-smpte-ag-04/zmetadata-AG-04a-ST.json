@@ -1,8 +1,0 @@
-{
-  "_help": "Additional metadata for the camera ready version of AG-04-ST",
-	"version": "0.1",
-	"smpte": {
-		"number": "04a",
-		"reference": "AG-04a-ST:2020",
-	}
-}

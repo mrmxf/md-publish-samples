@@ -1,6 +1,13 @@
-# output folder
+# `md-publish` sample files
 
-Typically, this is the output folder. All `.docx`, `.pdf` and other self
-contained formats live in the root here.
+Work in progress. See https://github.com/mrmxf/md-publish.
 
-Component formats like `HTML` web pages will live in a folder.
+After installing the tools build these samples with:
+
+```bash
+./x-r/mdpub.sh
+```
+
+## Samples
+
+* `src-smpte-ag-04` - SMPTE's AG-04 as draft and published document

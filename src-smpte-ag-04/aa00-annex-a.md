@@ -1,6 +1,6 @@
 # Annex All Annexes are Numbered
 
-## Even the sube headings are numbered.
+## Even the sub headings are numbered
 
 By default syntax highlighting is used in code, XML and JSON.
 

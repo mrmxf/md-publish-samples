@@ -1,4 +1,4 @@
-# Title: ag-04(draft output)
+# Title: ag-04(published output)
 # Author: Bruce Devlin
 # Defaults: DOCX (smpte)
 
@@ -7,25 +7,26 @@
 
 metadata:
   mustache:
-    - src-smpte-ag-04/metadata-AG-04-drafts.json
+    - src-smpte-ag-04/metadata/AG-04-drafts.json
+    - src-smpte-ag-04/metadata/AG-04-publish.json
 
 from: markdown
 to: docx
 
 reference-doc: x-r/refdoc/refdoc-smpte-eng.docx
 
-output-file:  docs/AG-04-ST Standards Template(draft).docx
+output-file:  docs/ag04-pub.docx
 input-files:
-  - x-r/boilerplate/smpte/inc-draft-st-000-title-block.md
-  - x-r/boilerplate/smpte/inc-draft-st-002-foreword.md
-  - x-r/boilerplate/smpte/inc-draft-st-005-introduction.md
+  - x-r/boilerplate/smpte/inc-smpte-st-000-title-block.md
+  - x-r/boilerplate/smpte/inc-smpte-st-002-foreword-unpublished.md
+  - x-r/boilerplate/smpte/inc-smpte-st-005-introduction.md
   - src-smpte-ag-04/005-introduction.md
-  - x-r/boilerplate/smpte/inc-draft-st-006-ipr-statement.md
-  - x-r/boilerplate/smpte/inc-draft-st-010-scope-heading.md
+  - x-r/boilerplate/smpte/inc-smpte-st-006-ipr-statement.md
+  - x-r/boilerplate/smpte/inc-smpte-st-010-scope-heading.md
   - src-smpte-ag-04/010-scope.md
-  - x-r/boilerplate/smpte/inc-draft-st-020-normative-references-heading.md
+  - x-r/boilerplate/smpte/inc-smpte-st-020-normative-references-heading.md
   - src-smpte-ag-04/020-normative-references.md
-  - x-r/boilerplate/smpte/inc-draft-st-030-terms-and-definitions-heading.md
+  - x-r/boilerplate/smpte/inc-smpte-st-030-terms-and-definitions-heading.md
   - src-smpte-ag-04/030-terms-definitions.md
   - src-smpte-ag-04/040-technical-content.md
   - src-smpte-ag-04/050-headings-lists.md
@@ -47,7 +48,6 @@ filters:
 standalone: true
 self-contained: true
 
-# This variable is passed to filters
 variables:
   organisation: SMPTE
 
